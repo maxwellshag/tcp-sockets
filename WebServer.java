@@ -5,13 +5,13 @@ import java.util.* ;
 public final class WebServer {
     public static void main(String argv[]) throws Exception
     {
-		//Set the port number.
+		// Set the port number.
         int port=6789;
 
-        //Establish the listen socket with ServerSocket.
+        // Establish the listen socket with ServerSocket.
         ServerSocket ss = new ServerSocket(port);
 
-        //Provide a message for users.
+        // Provide a message for users.
         System.out.println("The server is listening.");
 
         // Process HTTP service requests in an infinite loop.
